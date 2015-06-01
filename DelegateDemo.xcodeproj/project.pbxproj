@@ -14,6 +14,7 @@
 		A2182B701B1C5C6B000D2ECF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2182B6F1B1C5C6B000D2ECF /* Images.xcassets */; };
 		A2182B731B1C5C6B000D2ECF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2182B711B1C5C6B000D2ECF /* LaunchScreen.xib */; };
 		A2182B7F1B1C5C6B000D2ECF /* DelegateDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2182B7E1B1C5C6B000D2ECF /* DelegateDemoTests.swift */; };
+		A2182B891B1C5DB0000D2ECF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2182B881B1C5DB0000D2ECF /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		A2182B781B1C5C6B000D2ECF /* DelegateDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegateDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2182B7D1B1C5C6B000D2ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2182B7E1B1C5C6B000D2ECF /* DelegateDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateDemoTests.swift; sourceTree = "<group>"; };
+		A2182B881B1C5DB0000D2ECF /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				A2182B651B1C5C6B000D2ECF /* AppDelegate.swift */,
 				A2182B6A1B1C5C6B000D2ECF /* ViewController.swift */,
+				A2182B881B1C5DB0000D2ECF /* SecondViewController.swift */,
 				A2182B6C1B1C5C6B000D2ECF /* Main.storyboard */,
 				A2182B6F1B1C5C6B000D2ECF /* Images.xcassets */,
 				A2182B711B1C5C6B000D2ECF /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2182B891B1C5DB0000D2ECF /* SecondViewController.swift in Sources */,
 				A2182B6B1B1C5C6B000D2ECF /* ViewController.swift in Sources */,
 				A2182B661B1C5C6B000D2ECF /* AppDelegate.swift in Sources */,
 				A2182B691B1C5C6B000D2ECF /* DelegateDemo.xcdatamodeld in Sources */,
