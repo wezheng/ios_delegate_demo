@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController,DataEnterDelegate {
     @IBOutlet weak var dataLabel: UILabel!
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,8 +26,7 @@ class ViewController: UIViewController,DataEnterDelegate {
             print("3")
             let secondVC:SecondViewController = segue.destinationViewController as! SecondViewController
             secondVC.delegate = self
+        }
     }
-
-}
 }
 
